@@ -25,17 +25,10 @@ const members = [
   },
   {
     name: "Renan",
-    roles: ["Mobile Designer", "Web Developer"],
+    roles: ["Mobile Designer", "Web Developer", "Pitch"],
     image: "/renan_img.jpg",
     github: "https://github.com/renanzanettio",
     linkedin: "https://www.linkedin.com/in/renan-zanetti/",
-  },
-  {
-    name: "Yuri",
-    roles: ["Pitch", " ­ "],
-    image: "/yuri_img.png",
-    github: "https://github.com/yurisantos",
-    linkedin: "https://www.linkedin.com/in/yuri-santos/",
   },
 ];
 
@@ -60,7 +53,7 @@ export default function TeamSection() {
             Membros
           </span>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {members.map((member) => (
             <div
               key={member.name}

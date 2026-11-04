@@ -78,10 +78,10 @@ export default function ProjectSection() {
             <div className="w-48 h-48 flex items-center justify-center rounded-2xl">
               <Image
                 src={Logo}
-                alt="PostVision icon"
-                width={240}
-                height={240}
-                className="object-contain transition-transform duration-300 scale-120 hover:scale-130"
+                alt="Logo do PostVision"
+                width={188}
+                height={184}
+                className="w-full h-auto object-contain transition-transform duration-300 hover:scale-110"
               />
             </div>
           </div>
